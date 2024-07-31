@@ -1,0 +1,22 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "jest --coverage --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "globals": {
+    "window": {}
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

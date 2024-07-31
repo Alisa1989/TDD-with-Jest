@@ -1,0 +1,13 @@
+{
+    "main": "example.js",
+    "scripts": {
+        "test": "jest --coverage",
+        "dev": "jest --coverage --watchAll"
+    },
+    "globals": {
+        "window": {}
+    },
+    "dependencies": {
+        "jest-environment-jsdom": "^29.7.0"
+    }
+}
